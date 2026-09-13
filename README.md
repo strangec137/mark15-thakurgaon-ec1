@@ -94,7 +94,6 @@ at 300 DPI.
 
 ## Known Limitations
 
-- **Scale bar distances are approximate**, not calculated from true geodesic distance — the `(0, 100)`, `(0, 10, 20)`, and `(0, 1, 2)` km values are visual estimates per panel and will need adjustment if reused for a different extent. A geodesic-based scale bar calculation is planned for a future revision.
 - **Basemap tiles require an internet connection** at render time (Esri World Street Map by default — no API key required, unlike some Carto tile styles).
 - The north arrow image must exist at the configured path, or that panel's compass is silently skipped with a printed warning (does not stop the script).
 
