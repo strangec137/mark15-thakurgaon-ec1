@@ -16,7 +16,7 @@ This notebook produces a 3-panel location context map showing:
 
 - **(a)** Bangladesh, with Thakurgaon District highlighted
 - **(b)** Thakurgaon District, with all upazilas outlined and Thakurgaon Sadar highlighted
-- **(c)** Thakurgaon Sadar upazila on its own, zoomed in
+- ![EC1 Thakurgaon Location Context Map](outputs/EC1_Thakurgaon_Location_Context.png)
 
 ---
 
