@@ -1,0 +1,35 @@
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Conda / venv
+env/
+venv/
+*.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large raw data (keep out of git — see README for how to obtain/reproduce)
+00_raw_data/dem/
+00_raw_data/sentinel2/
+00_raw_data/rainfall/
+00_raw_data/temperature/
+00_raw_data/lst/
+00_raw_data/lulc/
+00_raw_data/population/
+00_raw_data/soil/
+00_raw_data/rivers/*.gdb
+
+# Keep small boundary geopackages and sample field data tracked
+!00_raw_data/boundaries/
+!00_raw_data/field_data/
+
+# Editor
+.vscode/
+.idea/
